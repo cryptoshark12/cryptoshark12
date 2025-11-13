@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CryptoShark theme overrides */
+body { background-color: #0b0b0b; color: #e8e6e3; }
+.header { border-bottom: 1px solid #111; }
+.btn-gold { background: linear-gradient(90deg,#b79b4c,#8f751f); color: #050505; }
+.counter { color: #f7f5f2; font-weight: 700; }
+.stat-label { color: #bfb7a3; }
+.hero-chart path { stroke: rgba(183,155,76,0.95); stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+a.text-gold { color: #b79b4c; }
